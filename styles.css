@@ -11,6 +11,16 @@
 
 .navbar{
 border: solid;
+position: fixed;
+top: 0;
+width: 100%;
+float:left;
+display: block;
+text-align: center;
+text-decoration: none;
+overflow: hidden;
+background-color: rgb(250, 195, 203);
+z-index: 2;
 }
 
 .active{
@@ -37,27 +47,24 @@ border: solid;
 .navbar-brand {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
-    font-size: larger;
+    font-size: 1cm;
+   
+    
+
 }
-.p1 {
+.h1 {
     font-style:italic;
-    font-size: larger;
+    font-size:2cm;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 5%;
     margin-bottom:5%;
-}
-
-.h1{
-    font-style:oblique;
-    font-size:larger
-    
 }
 
 .tea {
 margin: auto;
 display: inline-block;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size:larger;
+font-size:large;
 }
 
 
@@ -66,16 +73,75 @@ background-image:url("images/nackground.png");
 display: inline-block;
 }
 
+.header1{
+    display:inline-block;
+}
+
 .pabout{
-margin-top: 5cm;
-font-size:medium;
+font-size:0.5cm;
+margin-left: 0.75cm;
+margin-right:0.75cm;
 }
 
 .when{
 display: inline-block;
-font-size: larger;
+font-size:1cm;
 font-style: italic;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin:1.5cm;
+
+}
+.local{
+    font-size:1cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:1.5cm;
+    font-style: italic;
+}
+
+.afterlocal{
+font-size:0.75cm;
+margin-left:2cm;
+}
+
+.oldcafe{
+    margin-left:15cm;
+
+
+}
+
+.located{
+margin-left: 1cm;
+font-size: 0.5cm;
+
+}
+
+.front{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    float:center;
+}
+
+.back{
+    display:flex;
+    align-items:left;
+    margin-right:2cm;
+    justify-content: left;
+    float:right
 }
 
 
+.inner{
+    display:flex;
+    align-items:left;
+    margin-left: 2cm;
+    justify-content: left;
+    float:left;
+}
+
+.announce{
+    Font-size:2cm;
+    align-items:center;
+    font-style: italic; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -108,7 +108,25 @@ margin-left:5cm;
 .oldcafe{
     margin-left:15cm;
 
+}
 
+.contactu{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:0.5cm;
+}
+.number{
+font-family:'Courier New', Courier, monospace;
+font-size:0.5cm;
+}
+
+.email{
+font-family:'Courier New', Courier, monospace;
+font-size:0.5cm;
+}
+
+.facebook{
+font-family:'Courier New', Courier, monospace;
+font-size:0.5;
 }
 
 .located{

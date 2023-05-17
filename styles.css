@@ -1,0 +1,81 @@
+.header{
+    display:inline-block;
+    margin: auto;
+}
+
+.body {
+    background-image:url("images/nackground.png");
+    text-align: center;
+    margin: auto;
+}
+
+.navbar{
+border: solid;
+}
+
+.active{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger;
+}
+
+.contact{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+
+.gallery{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.ann{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.navbar-brand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-size: larger;
+}
+.p1 {
+    font-style:italic;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+
+.h1{
+    font-style:oblique;
+    font-size:larger
+    
+}
+
+.tea {
+margin: auto;
+display: inline-block;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:larger;
+}
+
+
+.about{
+background-image:url("images/nackground.png");
+display: inline-block;
+}
+
+.pabout{
+margin-top: 5cm;
+font-size:medium;
+}
+
+.when{
+display: inline-block;
+font-size: larger;
+font-style: italic;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+

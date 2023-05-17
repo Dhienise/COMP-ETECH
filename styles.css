@@ -25,23 +25,23 @@ z-index: 2;
 
 .active{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:larger;
+    font-size:vw;
 }
 
 .contact{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
+    font-size: vw;
 }
 
 
 .gallery{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
+    font-size:vw;
 }
 
 .ann{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
+    font-size: vw;
 }
 
 .navbar-brand {
@@ -153,4 +153,12 @@ font-size: 0.5cm;
     background-color: rgb(255, 217, 223);
     text-align: center;
     margin: auto;
+}
+
+.picturegallery{
+    justify-content: center;
+    align-items: center;
+    margin-left:28%;
+    margin-bottom:2cm;
+    margin-top:2cm;
 }

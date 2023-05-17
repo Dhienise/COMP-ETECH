@@ -73,8 +73,10 @@ background-image:url("images/nackground.png");
 display: inline-block;
 }
 
-.header1{
+.aboutheader{
     display:inline-block;
+    margin: auto;
+
 }
 
 .pabout{
@@ -100,7 +102,7 @@ margin:1.5cm;
 
 .afterlocal{
 font-size:0.75cm;
-margin-left:2cm;
+margin-left:5cm;
 }
 
 .oldcafe{
@@ -139,9 +141,16 @@ font-size: 0.5cm;
     float:left;
 }
 
+
 .announce{
     Font-size:2cm;
     align-items:center;
     font-style: italic; 
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page3{
+    background-color: rgb(255, 217, 223);
+    text-align: center;
+    margin: auto;
 }

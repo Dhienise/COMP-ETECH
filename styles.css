@@ -25,36 +25,36 @@ z-index: 2;
 
 .active{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:vw;
+    font-size: 1vw;
 }
 
 .contact{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: vw;
+    font-size: 1vw;
 }
 
 
 .gallery{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:vw;
+    font-size: 1vw;
 }
 
 .ann{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: vw;
+    font-size: 1vw;
 }
 
 .navbar-brand {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
-    font-size: 1cm;
+    font-size: 4vw;
    
     
 
 }
 .h1 {
     font-style:italic;
-    font-size:2cm;
+    font-size:5vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 5%;
     margin-bottom:5%;
@@ -64,7 +64,7 @@ z-index: 2;
 margin: auto;
 display: inline-block;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size:large;
+font-size:1.15vw;
 }
 
 
@@ -82,63 +82,71 @@ display: inline-block;
 }
 
 .pabout{
-font-size:0.5cm;
-margin-left: 0.75cm;
-margin-right:0.75cm;
+font-size:1.09vw;
+margin-left: 4vw;
+margin-right:4vw;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.old{
+    height: auto;
+    width: auto;
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
 
 .when{
 display: inline-block;
-font-size:1cm;
+font-size:4vw;
 font-style: italic;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 margin:1.5cm;
-
 }
 
-.old{
-max-width:20%;
-
-}
 .local{
-    font-size:1cm;
+    font-size:4vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin:1.5cm;
     font-style: italic;
 }
 
 .afterlocal{
-font-size:0.75cm;
-margin-left:5cm;
+font-size:2vw;
+margin-left:5vw;
+margin-right:5vw;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .oldcafe{
     margin-left:15cm;
+    float:inline-end; 
+    display:center;
 
 }
 
 .contactu{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size:0.5cm;
+font-size:1.5vw;
 }
 .number{
 font-family:'Courier New', Courier, monospace;
-font-size:0.5cm;
+font-size:1.5vw;
 }
 
 .email{
 font-family:'Courier New', Courier, monospace;
-font-size:0.5cm;
+font-size:1.5vw;
 }
 
 .facebook{
 font-family:'Courier New', Courier, monospace;
-font-size:0.5;
+font-size:1.5vw;
 }
 
 .located{
 margin-left: 1cm;
-font-size: 0.5cm;
+font-size: 1.5vw;
 
 }
 
@@ -168,7 +176,7 @@ font-size: 0.5cm;
 
 
 .announce{
-    Font-size:2cm;
+    Font-size:5vw;
     align-items:center;
     font-style: italic; 
     font-family: Georgia, 'Times New Roman', Times, serif;

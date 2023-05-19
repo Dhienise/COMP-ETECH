@@ -74,9 +74,11 @@ display: inline-block;
 }
 
 .aboutheader{
-    display:inline-block;
-    margin: auto;
-
+    display:flex;
+    align-items:left;
+    margin-right:2.5cm;
+    justify-content: center;
+    float:center;
 }
 
 .pabout{
@@ -91,6 +93,11 @@ font-size:1cm;
 font-style: italic;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 margin:1.5cm;
+
+}
+
+.old{
+max-width:20%;
 
 }
 .local{

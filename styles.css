@@ -97,11 +97,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 .when{
 display: inline-block;
-font-size:3vw;
+font-size:4vw;
 font-style: italic;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-margin:1cm;
-
+margin:1.5cm;
 }
 
 .local{
@@ -109,9 +108,6 @@ margin:1cm;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin:1.5cm;
     font-style: italic;
-    margin-left: 1.5cm;
-    margin-left: 1.5vm;
-   
 }
 
 .afterlocal{
@@ -156,8 +152,9 @@ font-size: 1.5vw;
 
 .front{
     display:flex;
-    align-items: left;
-    float:left;
+    align-items: center;
+    justify-content: center;
+    float:center;
 }
 
 .back{
@@ -169,7 +166,7 @@ font-size: 1.5vw;
 }
 
 
-.inside{
+.inner{
     display:flex;
     align-items:left;
     margin-left: 2cm;
@@ -199,11 +196,8 @@ font-size: 1.5vw;
     margin-top:2cm;
 }
 
-.gg{
-    font-size: 2vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: italic;
-    margin-top:0.5cm;
-    margin-left:15vm;
+.Povt {
+    background-image:url("images/nackground.png");
     text-align: center;
+    margin: auto;
 }
